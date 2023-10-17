@@ -1,4 +1,5 @@
 .foto_perfil {
-    height:100px;
-    
+    height: auto;
+    width: 100px; 
+    float: right;
 }
