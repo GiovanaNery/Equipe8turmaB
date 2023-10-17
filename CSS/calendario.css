@@ -50,4 +50,5 @@ main{
     flex-basis: content;
     padding: 1rem;
     align-items: center;
+    line-height: 1.5;
 }
