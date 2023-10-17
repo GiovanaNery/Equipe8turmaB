@@ -1,5 +1,24 @@
-.foto_perfil {
+.foto_perfil{
     height: auto;
     width: 100px; 
-    float: right;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 120%;
+    padding: 1rem;
+}
+
+.foto_add_remedio{
+    height: auto;
+    width: 150px; 
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
