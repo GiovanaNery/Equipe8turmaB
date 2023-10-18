@@ -22,6 +22,7 @@ main{
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .divisao-quadrados {
@@ -30,11 +31,11 @@ main{
     justify-content: center;
     align-items: center;
     border: .1rem solid black;
-    padding: 1rem;
+    padding: 2.3rem 1rem;
     text-decoration: none;
     color: black;
     margin: 1rem;
     min-width: 30%;
-    position: relative;
-    flex-wrap: wrap;
+    max-width: 30%;
+    text-align: center;
 }
