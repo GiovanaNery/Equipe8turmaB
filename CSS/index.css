@@ -1,3 +1,13 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .foto_perfil{
     height: auto;
     width: 100px; 
@@ -17,6 +27,7 @@ header{
 }
 
 main{
+    flex-grow: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -25,17 +36,32 @@ main{
     line-height: 1.5;
 }
 
+/* .rodape-lista{
+    padding: 0; 
+    display: flex; 
+    justify-content: space-between;
+    height: 100%;
+} */
+
 footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     text-align: center;
 }
 
-.rodape-lista{
-    padding: 0; 
-    display: flex; 
-    justify-content: space-between; 
+.divisao-quadrados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: .1rem solid black;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
 }
 
-.rodape-lista li{
+/* .rodape-lista li{
     flex: 1; 
     width: 500px; 
     height: 500px; 
@@ -47,5 +73,5 @@ footer{
     border: 0.1rem solid black;
     display: flex;  
     text-align: center; 
-}
+} */
 
