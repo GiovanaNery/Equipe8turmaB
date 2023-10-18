@@ -1,7 +1,6 @@
 .foto_perfil{
     height: auto;
-    width: 100px;
-    padding: 1rem; 
+    width: 100px; 
 }
 
 .foto_seta{
@@ -20,9 +19,9 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 1rem;
+    text-align: end;
     align-items: center;
-    width: 100%;
-    padding: 1rem 1rem 1rem 1rem  ;
 }
 
 .foto_add_remedio{
