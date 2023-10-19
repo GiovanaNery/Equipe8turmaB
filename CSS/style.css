@@ -1,0 +1,256 @@
+html{
+    height: 100%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    text-align: end;
+    align-items: center;
+    
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.main_index{
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    text-align: center;
+    line-height: 1.5;
+}
+.main_nomeremedio {
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+.footer_index{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.footer_nomeremedio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0rem;
+    border: .1rem solid black;
+    text-align: center;
+}
+.padd{
+    padding:1rem;
+}
+
+.h2_todos_remedios{
+    padding: 1rem;
+}
+.section_calendario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1rem ;
+}
+.section_bula{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1rem 1rem 1rem 1rem;
+    height: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.foto_perfil{
+    height: auto;
+    width: 100px; 
+}
+
+.foto_seta{
+    height: auto;
+    width: 60px; 
+}
+.header_a_bula{
+    text-decoration: none;
+    color: black;
+}
+.fonte_titulo{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.fonte_subtitulo{
+    font-size: 1.2rem;
+}
+.itens_bula{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    padding:1rem;
+    margin:1rem 1rem 1rem 1rem;
+    line-height: 1.5;
+    height: 100%;
+    margin-bottom: 1rem;
+}
+
+
+.itens_bula li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+}
+.foto_add_remedio_calendario{
+    height: auto;
+    width: 150px; 
+}
+.foto_add_remedio_index{    /*e login*/
+    height: auto;
+    width: 200px; 
+}
+.enquadramento{
+    width: 100%;
+    height:80%;
+
+}
+.bloco{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    border:solid black;
+    flex-basis: content;
+    padding: 1rem;
+    align-items: center;
+    line-height: 1.5;
+}
+.coluna{
+    display: flex;
+    justify-content: row;
+}
+.little_bloco{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    border:solid black;
+    flex-basis: content;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.body_index{           /* e nome_remedio*/
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.divisao-quadrados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: .1rem solid black;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.divisao-quadrados_todos_remedios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border: .1rem solid black;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    margin-left: 1rem;
+    line-height: 1.5;
+}
+.divisao-quadrados_todos_remedios a{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.main_login{
+    text-align: center; 
+    padding: 1.25rem; 
+}
+.main_login section {
+    margin-top: 1.25rem; 
+    padding:  0.625rem; 
+    line-height: 1.5;
+}
+.main_login section ul {
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0; /* Remova o espaçamento interno da lista */
+    text-align: center;
+}
+
+.main_login section li{
+    margin:0;
+}
+.divisao-quadrados_meusremedios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: .1rem solid black;
+    padding: 2.3rem 1rem;
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+    min-width: 30%;
+    max-width: 30%;
+    text-align: center;
+}
+.main_remedios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+ul.informacoes{
+    list-style: none;
+}
+ul.informacoes li{
+    margin-bottom: 0.5rem;
+}
+
+.bula-box{
+    text-decoration: none;
+    color: black;
+}
+.h4_nomeremdio{
+    margin-bottom: 1rem;
+}
+
+.section_nomeremedio{
+    margin-bottom: 2.5rem;
+}
+.section_nomeremedio h3{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.bula-box{
+    text-decoration: none;
+    color: black;
+}
