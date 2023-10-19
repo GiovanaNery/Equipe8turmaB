@@ -254,3 +254,12 @@ ul.informacoes li{
     text-decoration: none;
     color: black;
 }
+
+.foto_add_foto{
+    height: auto;
+    width: 200px; 
+}
+.header_a_nomeremedios{
+    text-decoration: none;
+    color: black;
+}
