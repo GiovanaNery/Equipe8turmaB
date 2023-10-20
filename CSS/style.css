@@ -12,6 +12,15 @@ header{
     
 }
 
+.bula_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    text-align: end;
+}
+
 main{
     flex-grow: 1;
     display: flex;
@@ -56,6 +65,7 @@ main{
     border: .1rem solid black;
     text-align: center;
 }
+
 .padd{
     padding:1rem;
 }
@@ -90,7 +100,7 @@ main{
     width: 60px; 
 }
 
-.header_a_bula{
+.bula_header a{
     text-decoration: none;
     color: black;
 }
@@ -183,6 +193,7 @@ main{
     text-decoration: none;
     color: black;
 }
+
 .divisao-quadrados_todos_remedios{
     display: flex;
     flex-direction: column;
@@ -196,6 +207,7 @@ main{
     margin-left: 1rem;
     line-height: 1.5;
 }
+
 .divisao-quadrados_todos_remedios a{
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -207,17 +219,19 @@ main{
     text-align: center; 
     padding: 1.25rem; 
 }
+
 .main_login section {
     margin-top: 1.25rem; 
     padding:  0.625rem; 
     line-height: 1.5;
 }
+
 .main_login section ul {
     list-style-type: disc;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0; /* Remova o espaçamento interno da lista */
+    padding: 0; 
     text-align: center;
 }
 
@@ -239,6 +253,7 @@ main{
     max-width: 30%;
     text-align: center;
 }
+
 .main_remedios{
     display: flex;
     flex-direction: row;
@@ -246,9 +261,11 @@ main{
     text-align: center;
     flex-wrap: wrap;
 }
+
 ul.informacoes{
     list-style: none;
 }
+
 ul.informacoes li{
     margin-bottom: 0.5rem;
 }
@@ -257,6 +274,7 @@ ul.informacoes li{
     text-decoration: none;
     color: black;
 }
+
 .h4_nomeremdio{
     margin-bottom: 1rem;
 }
@@ -268,6 +286,7 @@ ul.informacoes li{
     text-align: center;
     font-size: 1.2rem;
 }
+
 .bula-box{
     text-decoration: none;
     color: black;
@@ -277,6 +296,7 @@ ul.informacoes li{
     height: auto;
     width: 200px; 
 }
+
 .header_a_nomeremedios{
     text-decoration: none;
     color: black;
