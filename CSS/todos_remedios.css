@@ -8,7 +8,7 @@
 }
 body{
     font-family: 'PT Serif', 'Playfair Display';
-    background-color: #b4d9d5
+    background-color: #d2dee8
 }
 header{
     display: flex;
@@ -55,6 +55,7 @@ h2{
     width: 100%;
     margin-left: 1rem;
     line-height: 1.5;
+    background-color: #b4d9d5;
 }
 
 .divisao-quadrados a{

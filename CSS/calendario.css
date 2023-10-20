@@ -39,7 +39,7 @@ header h1{
 }
 body {
     font-family: 'PT Serif', 'Playfair Display';
-    background-color: #b4d9d5
+    background-color: #d2dee8
 }
 main{
     flex-grow: 1;
@@ -67,4 +67,5 @@ main{
     padding: 1rem;
     align-items: center;
     line-height: 1.5;
+    background-color:#b4d9d5;
 }

@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&family=Playfair+Display&family=Roboto:wght@100&display=swap');
 body{
-    background-color: #b4d9d5
+    background-color: #d2dee8
 }
 header{
     display: flex;
@@ -51,6 +51,7 @@ main{
     flex-direction:column;
     justify-content: space-evenly;
     border:solid black;
+    background-color:#b4d9d5;
     flex-basis: content;
     padding: 1rem 1rem 1rem 1rem;
     margin: 1rem 1rem 1rem 1rem;
