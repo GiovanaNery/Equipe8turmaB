@@ -16,6 +16,7 @@ header{
     text-align: end;
     padding: 1rem;
     font-family: 'PT Serif', 'Playfair Display';
+    height: 10%;
     
 }
 
@@ -39,7 +40,7 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 79%;
+    height: 80%;
 }
 
 .padd{
@@ -183,17 +184,6 @@ section{
     text-align: center;
 }
 
-.divisao-quadrados {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: .1rem solid black;
-    padding: 1rem;
-    text-decoration: none;
-    color: black;
-}
-
 
 .divisao-quadrados{
     display: flex;
@@ -286,4 +276,9 @@ footer{
     min-width: 30%;
     max-width: 30%;
     color: black;
+}
+.body_index{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
