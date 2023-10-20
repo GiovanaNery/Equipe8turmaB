@@ -15,6 +15,10 @@ header{
     padding: 1rem;
     font-family: 'PT Serif', 'Playfair Display';
 }
+header a{
+    text-decoration: none;
+    color: black;
+}
 body{
     background-color: #b4d9d5
 }
@@ -144,7 +148,7 @@ section{
     display:flex;
     flex-direction:column;
     justify-content: space-evenly;
-    border:solid black;
+    border: 0.1rem solid black;
     flex-basis: content;
     padding: 1rem;
     align-items: center;
@@ -181,6 +185,7 @@ section h3{
 section{
     margin-bottom: 2.5rem;
 }
+
 h2{
     padding: 1rem;
     font-family: 'PT Serif', 'Playfair Display';
