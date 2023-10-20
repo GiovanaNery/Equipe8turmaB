@@ -25,7 +25,7 @@ main{
     flex-wrap: wrap;
 }
 
-.divisao-quadrados {
+.divisao-quadrados{
     display: flex;
     flex-direction: column;
     justify-content: center;

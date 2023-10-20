@@ -1,6 +1,7 @@
 html{
     height: 100%;
 }
+
 header{
     display: flex;
     flex-direction: row;
@@ -21,6 +22,7 @@ main{
     height: 100%;
     
 }
+
 .main_index{
     flex-grow: 1;
     flex-direction: column;
@@ -30,17 +32,20 @@ main{
     text-align: center;
     line-height: 1.5;
 }
+
 .main_nomeremedio {
     padding: 2rem;
     margin: 1rem;
     border-radius: 0.5rem;
 }
+
 .footer_index{
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
 }
+
 .footer_nomeremedio{
     display: flex;
     flex-direction: row;
@@ -58,12 +63,14 @@ main{
 .h2_todos_remedios{
     padding: 1rem;
 }
+
 .section_calendario{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding:1rem ;
 }
+
 .section_bula{
     display: flex;
     flex-direction: column;
@@ -82,18 +89,22 @@ main{
     height: auto;
     width: 60px; 
 }
+
 .header_a_bula{
     text-decoration: none;
     color: black;
 }
+
 .fonte_titulo{
     font-size: 2rem;
     text-align: center;
     margin-bottom: 1rem;
 }
+
 .fonte_subtitulo{
     font-size: 1.2rem;
 }
+
 .itens_bula{
     display: flex;
     flex-direction: column;
@@ -105,26 +116,29 @@ main{
     margin-bottom: 1rem;
 }
 
-
 .itens_bula li{
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5rem;
     padding: 1rem;
 }
+
 .foto_add_remedio_calendario{
     height: auto;
     width: 150px; 
 }
+
 .foto_add_remedio_index{    /*e login*/
     height: auto;
     width: 200px; 
 }
+
 .enquadramento{
     width: 100%;
     height:80%;
 
 }
+
 .bloco{
     display:flex;
     flex-direction:column;
@@ -135,10 +149,12 @@ main{
     align-items: center;
     line-height: 1.5;
 }
+
 .coluna{
     display: flex;
     justify-content: row;
 }
+
 .little_bloco{
     display:flex;
     flex-direction:column;
@@ -156,7 +172,8 @@ main{
     display: flex;
     flex-direction: column;
 }
-.divisao-quadrados {
+
+.divisao-quadrados{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -207,7 +224,8 @@ main{
 .main_login section li{
     margin:0;
 }
-.divisao-quadrados_meusremedios {
+
+.divisao-quadrados_meusremedios{
     display: flex;
     flex-direction: column;
     justify-content: center;
