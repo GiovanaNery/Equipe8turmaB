@@ -15,7 +15,9 @@ header{
     padding: 1rem;
     font-family: 'PT Serif', 'Playfair Display';
 }
-
+body{
+    background-color: #b4d9d5
+}
 main{
     flex-grow: 1;
     display: flex;
@@ -44,7 +46,8 @@ main{
 }
 .foto_add_remedio{
     height: auto;
-    width: 150px; 
+    width: 150px;
+    
 }
 main section {
     margin-top: 1.25rem; 
@@ -92,6 +95,7 @@ section li {
     align-items: center;
     line-height: 1.5;
     font-family: 'PT Serif', 'Playfair Display';
+    background-color: #66bed4
 }
 section{
     display: flex;
@@ -128,6 +132,7 @@ section{
     align-items: center;
     padding:1rem ;
     font-family: 'PT Serif', 'Playfair Display';
+    
 }
 .enquadramento{
     width: 100%;
@@ -145,6 +150,7 @@ section{
     align-items: center;
     line-height: 1.5;
     font-family: 'PT Serif', 'Playfair Display';
+    background-color: rgb(255,255,255)
 }
 
 
@@ -157,12 +163,14 @@ section{
     padding: 1rem;
     text-decoration: none;
     color: black;
+    background-color: #ffcceb
 }
 .divisao-quadrados a{
     font-size: 1.5rem;
     margin-bottom: 1rem;
     text-decoration: none;
     color: black;
+    
 }
 section h3{
     text-align: center;
@@ -202,9 +210,11 @@ footer{
     border: .1rem solid black;
     text-align: center;
     font-family: 'PT Serif', 'Playfair Display';
+    background-color: #66bed4
 }
 
 .bula-box{
     text-decoration: none;
     color: black;
+    background-color: #66bed4
 }
