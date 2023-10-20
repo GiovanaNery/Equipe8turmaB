@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&family=Playfair+Display&family=Roboto:wght@100&display=swap');
 .foto_perfil{
     height: auto;
     width: 100px; 
@@ -22,14 +26,21 @@ header{
     padding: 1rem;
     text-align: end;
     align-items: center;
+    font-family: 'PT Serif', 'Playfair Display';
     
+}
+header h1{
+    font-family: 'PT Serif', 'Playfair Display';
 }
 
 .foto_add_remedio{
     height: auto;
     width: 150px; 
 }
-
+body {
+    font-family: 'PT Serif', 'Playfair Display';
+    background-color: #b4d9d5
+}
 main{
     flex-grow: 1;
     display: flex;
