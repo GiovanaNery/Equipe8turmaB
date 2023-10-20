@@ -61,7 +61,7 @@ main{
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    margin: 0rem;
+    margin: 1rem;
     border: .1rem solid black;
     text-align: center;
 }
@@ -280,7 +280,7 @@ ul.informacoes li{
 }
 
 .section_nomeremedio{
-    margin-bottom: 2.5rem;
+    margin-bottom: 0.5;
 }
 .section_nomeremedio h3{
     text-align: center;
