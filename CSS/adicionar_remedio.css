@@ -15,10 +15,11 @@ main{
     align-items: center;
     width: 100%;
     height: 100%;
-    padding: 1rem 1rem 1rem 1rem;
 }
 
-
+.padd{
+    padding:1rem;
+}
 .foto_perfil{
     height: auto;
     width: 100px; 
