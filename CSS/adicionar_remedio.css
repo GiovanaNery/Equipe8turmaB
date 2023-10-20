@@ -43,7 +43,6 @@ main{
 
 .coluna{
     display: flex;
-    justify-content: row;
 }
 
 .little_bloco{
